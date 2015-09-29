@@ -1,5 +1,0 @@
-{
-    "backendServerConfiguration": {
-        "url": "%https.host%/api/v4.1"
-    }
-}

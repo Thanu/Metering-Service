@@ -1,8 +1,0 @@
-[2015-09-25 19:11:08,009]  INFO -  'admin@carbon.super [-1234]' logged in at [2015-09-25 19:11:08,008+0530] 
-[2015-09-25 19:31:30,109]  INFO -  'admin@carbon.super [-1234]' logged in at [2015-09-25 19:31:30,108+0530] 
-[2015-09-25 19:31:30,142]  INFO -  'admin@carbon.super [-1234]' logged in at [2015-09-25 19:31:30,141+0530] 
-[2015-09-25 19:31:30,156]  INFO -  'admin@carbon.super [-1234]' logged in at [2015-09-25 19:31:30,156+0530] 
-[2015-09-25 19:31:30,178]  INFO -  'admin@carbon.super [-1234]' logged in at [2015-09-25 19:31:30,177+0530] 
-[2015-09-25 19:31:30,206]  INFO -  'admin@carbon.super [-1234]' logged in at [2015-09-25 19:31:30,206+0530] 
-[2015-09-25 19:48:10,011]  WARN -  Failed Administrator login attempt 'admin[-1234]' at [2015-09-25 19:48:10,008+0530] 
-[2015-09-25 19:50:37,401]  WARN -  Failed Administrator login attempt 'admin[-1234]' at [2015-09-25 19:50:37,399+0530] 
