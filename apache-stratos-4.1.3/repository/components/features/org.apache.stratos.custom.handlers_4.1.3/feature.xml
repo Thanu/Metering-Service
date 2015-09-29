@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.apache.stratos.custom.handlers" label="Apache Stratos - Custom Handlers Feature" provider-name="%providerName" version="4.1.3">
+  <description>OAuth client type handler for JWT token generation</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.apache.stratos.custom.handlers" unpack="false" version="4.1.3"/>
+  <plugin id="nimbus-jose-jwt" unpack="false" version="2.26.1.wso2v2"/>
+</feature>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.apache.stratos.cloud.controller" label="Apache Stratos - Cloud Controller Feature" provider-name="%providerName" version="4.1.3">
+  <description>This feature contains the required bundles for the functionality of Cloud Controller</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="openstack-common" unpack="false" version="1.9.1"/>
+  <plugin id="google-collect" unpack="false" version="1.0.0.wso2v2"/>
+  <plugin id="guice-multibindings" unpack="false" version="3.0.0"/>
+  <plugin id="httpclient" unpack="false" version="4.2.5.wso2v1"/>
+  <plugin id="bcprov-jdk16" unpack="false" version="1.45.0.wso2v1"/>
+  <plugin id="com.sun.jna" unpack="false" version="4.1.0"/>
+  <plugin id="net.schmizz.sshj" unpack="false" version="0.8.1"/>
+  <plugin id="com.jcraft.jsch.agentproxy.connector-factory" unpack="false" version="0.0.8"/>
+  <plugin id="javax.ws.rs.jsr311-api" unpack="false" version="1.1.1"/>
+  <plugin id="com.sun.jersey.jersey-core" unpack="false" version="1.12"/>
+  <plugin id="com.google.gson" unpack="false" version="2.3.1"/>
+  <plugin id="jdom" unpack="false" version="1.0.0.wso2v1"/>
+  <plugin id="slf4j.api" unpack="false" version="1.7.0"/>
+  <plugin id="org.apache.servicemix.bundles.aopalliance" unpack="false" version="1.0.0.6"/>
+  <plugin id="org.apache.commons.compress" unpack="false" version="1.5.0"/>
+  <plugin id="slf4j.log4j12" unpack="false" version="1.7.0"/>
+  <plugin id="com.sun.jna.platform" unpack="false" version="4.1.0"/>
+  <plugin id="oauth" unpack="false" version="1.9.1"/>
+  <plugin id="guice" unpack="false" version="3.0.0"/>
+  <plugin id="openstack-nova" unpack="false" version="1.9.1"/>
+  <plugin id="google-compute-engine" unpack="false" version="1.9.1"/>
+  <plugin id="jclouds-core" unpack="false" version="1.9.1"/>
+  <plugin id="jclouds-enterprise" unpack="false" version="1.9.1"/>
+  <plugin id="openstack-neutron" unpack="false" version="1.9.1"/>
+  <plugin id="java-xmlbuilder" unpack="false" version="0.4.0.wso2v1"/>
+  <plugin id="ec2" unpack="false" version="1.9.1"/>
+  <plugin id="sts" unpack="false" version="1.9.1"/>
+  <plugin id="googlecloud" unpack="false" version="1.9.1"/>
+  <plugin id="google-cloud-storage" unpack="false" version="1.9.1"/>
+  <plugin id="aws-ec2" unpack="false" version="1.9.1"/>
+  <plugin id="jclouds-blobstore" unpack="false" version="1.9.1"/>
+  <plugin id="jclouds-joda" unpack="false" version="1.9.1"/>
+  <plugin id="openstack-keystone" unpack="false" version="1.9.1"/>
+  <plugin id="jclouds-bouncycastle" unpack="false" version="1.9.1"/>
+  <plugin id="jclouds-scriptbuilder" unpack="false" version="1.9.1"/>
+  <plugin id="jclouds-sshj" unpack="false" version="1.9.1"/>
+  <plugin id="org.apache.servicemix.bundles.jzlib" unpack="false" version="1.1.1.1"/>
+  <plugin id="org.apache.servicemix.bundles.jsch-agentproxy-sshj" unpack="false" version="0.0.8.1"/>
+  <plugin id="rocoto" unpack="false" version="6.1.0"/>
+  <plugin id="org.apache.stratos.kubernetes-api" unpack="false" version="2.2.16"/>
+  <plugin id="com.jcraft.jsch.agentproxy.sshagent" unpack="false" version="0.0.8"/>
+  <plugin id="json" unpack="false" version="1.0.0.wso2v1"/>
+  <plugin id="cloudstack" unpack="false" version="1.9.1"/>
+  <plugin id="com.jcraft.jsch.agentproxy.core" unpack="false" version="0.0.8"/>
+  <plugin id="org.apache.servicemix.bundles.javax-inject" unpack="false" version="1.0.0.2"/>
+  <plugin id="org.jboss.netty" unpack="false" version="3.5.9.Final"/>
+  <plugin id="jclouds-slf4j" unpack="false" version="1.9.1"/>
+  <plugin id="org.apache.stratos.kubernetes.client" unpack="false" version="4.1.3"/>
+  <plugin id="com.jcraft.jsch.agentproxy.usocket-nc" unpack="false" version="0.0.8"/>
+  <plugin id="jclouds-compute" unpack="false" version="1.9.1"/>
+  <plugin id="commons-io" unpack="false" version="2.0.0.wso2v1"/>
+  <plugin id="jclouds-netty" unpack="false" version="1.9.1"/>
+  <plugin id="org.apache.stratos.cloud.controller" unpack="false" version="4.1.3"/>
+  <plugin id="httpcore" unpack="false" version="4.3.0.wso2v1"/>
+  <plugin id="guice-assistedinject" unpack="false" version="3.0.0"/>
+  <plugin id="com.google.guava" unpack="false" version="16.0.1"/>
+  <plugin id="org.apache.stratos.messaging" unpack="false" version="4.1.3"/>
+  <plugin id="org.apache.stratos.mock.iaas.client" unpack="false" version="4.1.3"/>
+  <require>
+    <import feature="org.wso2.carbon.core.server" match="equivalent" version="4.2.0"/>
+  </require>
+</feature>
