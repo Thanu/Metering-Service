@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.apache.stratos.autoscaler" label="Apache Stratos - Autoscaler Feature" provider-name="%providerName" version="4.1.4.SNAPSHOT">
+  <description>This feature contains the required bundles for autoscaling functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.apache.stratos.cloud.controller.service.stub" unpack="false" version="4.1.4.SNAPSHOT"/>
+  <plugin id="org.apache.stratos.manager.service.stub" unpack="false" version="4.1.4.SNAPSHOT"/>
+  <plugin id="org.apache.stratos.autoscaler" unpack="false" version="4.1.4.SNAPSHOT"/>
+  <require>
+    <import feature="org.wso2.carbon.core.server" match="equivalent" version="4.2.0"/>
+  </require>
+</feature>

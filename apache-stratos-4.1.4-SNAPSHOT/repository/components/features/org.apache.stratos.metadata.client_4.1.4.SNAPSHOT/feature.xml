@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.apache.stratos.metadata.client" label="Apache Stratos - Metadata client Feature" provider-name="%providerName" version="4.1.4.SNAPSHOT">
+  <description/>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.apache.httpcomponents.httpclient" unpack="false" version="4.3.5"/>
+  <plugin id="com.google.gson" unpack="false" version="2.3.1"/>
+  <plugin id="org.apache.httpcomponents.httpcore" unpack="false" version="4.3.2"/>
+  <plugin id="org.apache.commons.lang3" unpack="false" version="3.1.0"/>
+  <plugin id="org.apache.stratos.metadata.client" unpack="false" version="4.1.4.SNAPSHOT"/>
+</feature>
