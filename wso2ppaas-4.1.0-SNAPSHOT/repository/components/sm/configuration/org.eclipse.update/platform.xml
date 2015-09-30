@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config transient="false" date="1443607644963">
+	<site enabled="true" updateable="true" policy="USER-EXCLUDE" url="platform:/base/">
+		<feature id="org.wso2.carbon.core.common" url="features/org.wso2.carbon.core.common_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.jaxws.webapp.mgt.ui" url="features/org.wso2.carbon.jaxws.webapp.mgt.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.server" url="features/org.wso2.carbon.event.server_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.identity.application.mgt.server" url="features/org.wso2.carbon.identity.application.mgt.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.security.mgt.server" url="features/org.wso2.carbon.security.mgt.server_4.2.4/" version="4.2.4">
+		</feature>
+		<feature id="org.wso2.carbon.user.mgt" url="features/org.wso2.carbon.user.mgt_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="caramel" url="features/caramel_1.0.1/" version="1.0.1">
+		</feature>
+		<feature id="org.wso2.carbon.ntask.core" url="features/org.wso2.carbon.ntask.core_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.core" url="features/org.wso2.carbon.core_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.stratos.common" url="features/org.wso2.carbon.stratos.common_2.2.2/" version="2.2.2">
+		</feature>
+		<feature id="org.jaggeryjs.ui" url="features/org.jaggeryjs.ui_0.0.0.0_9_0_ALPHA4_wso2v3/" version="0.0.0.0_9_0_ALPHA4_wso2v3">
+		</feature>
+		<feature id="org.wso2.carbon.registry.core" url="features/org.wso2.carbon.registry.core_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.registry.core.common" url="features/org.wso2.carbon.registry.core.common_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.jaggeryjs" url="features/org.jaggeryjs_0.0.0.0_9_0_ALPHA4_wso2v3/" version="0.0.0.0_9_0_ALPHA4_wso2v3">
+		</feature>
+		<feature id="org.wso2.carbon.identity.application.authentication.framework.server" url="features/org.wso2.carbon.identity.application.authentication.framework.server_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.commons.server" url="features/org.wso2.carbon.databridge.commons.server_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.identity.core.ui" url="features/org.wso2.carbon.identity.core.ui_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.registry.resource.properties.server" url="features/org.wso2.carbon.registry.resource.properties.server_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.identity.oauth.server" url="features/org.wso2.carbon.identity.oauth.server_4.2.3/" version="4.2.3">
+		</feature>
+		<feature id="org.wso2.carbon.identity.authenticator.saml2.sso.server" url="features/org.wso2.carbon.identity.authenticator.saml2.sso.server_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.stratos.common.ui" url="features/org.wso2.carbon.stratos.common.ui_2.2.0/" version="2.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.jaxws.webapp.mgt.server" url="features/org.wso2.carbon.jaxws.webapp.mgt.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.module.mgt.server" url="features/org.wso2.carbon.module.mgt.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.apache.stratos.manager.server" url="features/org.apache.stratos.manager.server_4.1.4.SNAPSHOT/" version="4.1.4.SNAPSHOT">
+		</feature>
+		<feature id="org.wso2.carbon.identity.core.server" url="features/org.wso2.carbon.identity.core.server_4.2.3/" version="4.2.3">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.agent.thrift.server" url="features/org.wso2.carbon.databridge.agent.thrift.server_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.apache.stratos.messaging" url="features/org.apache.stratos.messaging_4.1.4.SNAPSHOT/" version="4.1.4.SNAPSHOT">
+		</feature>
+		<feature id="org.wso2.carbon.webapp.mgt" url="features/org.wso2.carbon.webapp.mgt_4.2.3/" version="4.2.3">
+		</feature>
+		<feature id="org.wso2.carbon.transport.mgt.server" url="features/org.wso2.carbon.transport.mgt.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.registry.core.ui" url="features/org.wso2.carbon.registry.core.ui_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.stratos.common.server" url="features/org.wso2.carbon.stratos.common.server_2.2.2/" version="2.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.event.common" url="features/org.wso2.carbon.event.common_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.registry.core.server" url="features/org.wso2.carbon.registry.core.server_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.commons.thrift.server" url="features/org.wso2.carbon.databridge.commons.thrift.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.idp.mgt.ui" url="features/org.wso2.carbon.idp.mgt.ui_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.transaction.manager" url="features/org.wso2.carbon.transaction.manager_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.registry.search.ui" url="features/org.wso2.carbon.registry.search.ui_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.registry.resource.properties.ui" url="features/org.wso2.carbon.registry.resource.properties.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.apache.stratos.common" url="features/org.apache.stratos.common_4.1.4.SNAPSHOT/" version="4.1.4.SNAPSHOT">
+		</feature>
+		<feature id="org.wso2.carbon.identity.sso.saml" url="features/org.wso2.carbon.identity.sso.saml_4.2.3/" version="4.2.3">
+		</feature>
+		<feature id="org.wso2.carbon.identity.relying.party.server" url="features/org.wso2.carbon.identity.relying.party.server_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.apache.stratos.common.server" url="features/org.apache.stratos.common.server_4.1.4.SNAPSHOT/" version="4.1.4.SNAPSHOT">
+		</feature>
+		<feature id="org.wso2.carbon.identity.core" url="features/org.wso2.carbon.identity.core_4.2.3/" version="4.2.3">
+		</feature>
+		<feature id="org.wso2.carbon.captcha.mgt.server" url="features/org.wso2.carbon.captcha.mgt.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.identity.oauth.ui" url="features/org.wso2.carbon.identity.oauth.ui_4.2.3/" version="4.2.3">
+		</feature>
+		<feature id="org.wso2.carbon.registry.ui.menu" url="features/org.wso2.carbon.registry.ui.menu_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.throttle.server" url="features/org.wso2.carbon.throttle.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.rm.server" url="features/org.wso2.carbon.rm.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.core.runtime" url="features/org.wso2.carbon.core.runtime_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.security.mgt.ui" url="features/org.wso2.carbon.security.mgt.ui_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.as.runtimes.cxf" url="features/org.wso2.carbon.as.runtimes.cxf_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.apache.stratos.rest.endpoint" url="features/org.apache.stratos.rest.endpoint_4.1.4.SNAPSHOT/" version="4.1.4.SNAPSHOT">
+		</feature>
+		<feature id="org.apache.stratos.metadata.service" url="features/org.apache.stratos.metadata.service_4.1.4.SNAPSHOT/" version="4.1.4.SNAPSHOT">
+		</feature>
+		<feature id="org.wso2.carbon.identity.sso.saml.server" url="features/org.wso2.carbon.identity.sso.saml.server_4.2.3/" version="4.2.3">
+		</feature>
+		<feature id="org.wso2.carbon.webapp.mgt.server" url="features/org.wso2.carbon.webapp.mgt.server_4.2.3/" version="4.2.3">
+		</feature>
+		<feature id="org.wso2.ppaas.manager.styles" url="features/org.wso2.ppaas.manager.styles_4.1.0.SNAPSHOT/" version="4.1.0.SNAPSHOT">
+		</feature>
+		<feature id="org.wso2.carbon.registry.resource.properties" url="features/org.wso2.carbon.registry.resource.properties_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.datapublisher" url="features/org.wso2.carbon.databridge.datapublisher_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.ntask" url="features/org.wso2.carbon.ntask_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.identity.application.mgt" url="features/org.wso2.carbon.identity.application.mgt_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.store" url="features/org.wso2.store_1.0.1/" version="1.0.1">
+		</feature>
+		<feature id="org.apache.stratos.custom.handlers" url="features/org.apache.stratos.custom.handlers_4.1.4.SNAPSHOT/" version="4.1.4.SNAPSHOT">
+		</feature>
+		<feature id="org.wso2.carbon.identity.authenticator.saml2.sso.ui" url="features/org.wso2.carbon.identity.authenticator.saml2.sso.ui_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.idp.mgt" url="features/org.wso2.carbon.idp.mgt_4.2.3/" version="4.2.3">
+		</feature>
+		<feature id="org.wso2.carbon.caching.server" url="features/org.wso2.carbon.caching.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.user.mgt.server" url="features/org.wso2.carbon.user.mgt.server_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.service.mgt.server" url="features/org.wso2.carbon.service.mgt.server_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.identity.oauth.common" url="features/org.wso2.carbon.identity.oauth.common_4.2.3/" version="4.2.3">
+		</feature>
+		<feature id="org.wso2.carbon.identity.sso.saml.ui" url="features/org.wso2.carbon.identity.sso.saml.ui_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.core.ui" url="features/org.wso2.carbon.core.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.user.mgt.ui" url="features/org.wso2.carbon.user.mgt.ui_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.idp.mgt.server" url="features/org.wso2.carbon.idp.mgt.server_4.2.3/" version="4.2.3">
+		</feature>
+		<feature id="org.apache.stratos.manager" url="features/org.apache.stratos.manager_4.1.4.SNAPSHOT/" version="4.1.4.SNAPSHOT">
+		</feature>
+		<feature id="org.jaggeryjs.server" url="features/org.jaggeryjs.server_0.0.0.0_9_0_ALPHA4_wso2v3/" version="0.0.0.0_9_0_ALPHA4_wso2v3">
+		</feature>
+		<feature id="org.wso2.carbon.core.server" url="features/org.wso2.carbon.core.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.identity.user.profile.server" url="features/org.wso2.carbon.identity.user.profile.server_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.identity.application.mgt.ui" url="features/org.wso2.carbon.identity.application.mgt.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.jaxws.webapp.mgt" url="features/org.wso2.carbon.jaxws.webapp.mgt_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.identity.provider.server" url="features/org.wso2.carbon.identity.provider.server_4.2.3/" version="4.2.3">
+		</feature>
+		<feature id="org.wso2.carbon.webapp.mgt.ui" url="features/org.wso2.carbon.webapp.mgt.ui_4.2.3/" version="4.2.3">
+		</feature>
+		<feature id="org.wso2.carbon.transaction.manager.server" url="features/org.wso2.carbon.transaction.manager.server_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.security.mgt" url="features/org.wso2.carbon.security.mgt_4.2.4/" version="4.2.4">
+		</feature>
+		<feature id="org.wso2.carbon.identity.oauth" url="features/org.wso2.carbon.identity.oauth_4.2.3/" version="4.2.3">
+		</feature>
+	</site>
+</config>

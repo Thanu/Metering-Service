@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?><serviceGroup name="org.apache.stratos.cloud.controller-4.1.4.SNAPSHOT" successfullyAdded="true">
+    <service name="CloudControllerService" serviceDocumentation="CloudControllerService" exposedAllTransports="true" serviceDeployedTime="1443610728371" successfullyAdded="true">
+        <operation name="getCartridges">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="updateKubernetesMaster">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="validatePartition">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="createApplicationClusters">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="removeKubernetesCluster">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getServiceGroupCartridges">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getCartridge">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="addKubernetesCluster">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="registerService">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="addServiceGroup">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="terminateInstance">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getServiceGroupDependencies">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getServiceGroupSubGroups">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getServiceGroup">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="removeNetworkPartition">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="updateNetworkPartition">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="addKubernetesHost">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="createClusterInstance">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="unregisterService">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getHostsForKubernetesCluster">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="updateKubernetesCluster">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="terminateInstanceForcefully">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="removeKubernetesHost">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getKubernetesClusters">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getMasterForKubernetesCluster">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getIaasProviders">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="validateDeploymentPolicyNetworkPartition">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="startInstances">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="updateCartridge">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="startInstance">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="terminateInstances">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getNetworkPartition">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="updateClusterStatus">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getClusterContext">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="updateKubernetesHost">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="removeServiceGroup">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="addNetworkPartition">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getKubernetesCluster">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="removeCartridge">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getNetworkPartitions">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="addCartridge">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <bindings>
+            <binding name="CloudControllerServiceHttpBinding">
+                <operation name="getCartridges"/>
+                <operation name="updateKubernetesMaster"/>
+                <operation name="validatePartition"/>
+                <operation name="createApplicationClusters"/>
+                <operation name="removeKubernetesCluster"/>
+                <operation name="getServiceGroupCartridges"/>
+                <operation name="getCartridge"/>
+                <operation name="addKubernetesCluster"/>
+                <operation name="addServiceGroup"/>
+                <operation name="registerService"/>
+                <operation name="terminateInstance"/>
+                <operation name="getServiceGroupDependencies"/>
+                <operation name="getServiceGroupSubGroups"/>
+                <operation name="getServiceGroup"/>
+                <operation name="updateNetworkPartition"/>
+                <operation name="removeNetworkPartition"/>
+                <operation name="addKubernetesHost"/>
+                <operation name="createClusterInstance"/>
+                <operation name="unregisterService"/>
+                <operation name="getHostsForKubernetesCluster"/>
+                <operation name="updateKubernetesCluster"/>
+                <operation name="terminateInstanceForcefully"/>
+                <operation name="removeKubernetesHost"/>
+                <operation name="getKubernetesClusters"/>
+                <operation name="getMasterForKubernetesCluster"/>
+                <operation name="getIaasProviders"/>
+                <operation name="validateDeploymentPolicyNetworkPartition"/>
+                <operation name="updateCartridge"/>
+                <operation name="startInstances"/>
+                <operation name="startInstance"/>
+                <operation name="getNetworkPartition"/>
+                <operation name="terminateInstances"/>
+                <operation name="getClusterContext"/>
+                <operation name="updateClusterStatus"/>
+                <operation name="updateKubernetesHost"/>
+                <operation name="removeServiceGroup"/>
+                <operation name="addNetworkPartition"/>
+                <operation name="getKubernetesCluster"/>
+                <operation name="removeCartridge"/>
+                <operation name="addCartridge"/>
+                <operation name="getNetworkPartitions"/>
+            </binding>
+            <binding name="CloudControllerServiceSoap12Binding">
+                <operation name="getCartridges"/>
+                <operation name="updateKubernetesMaster"/>
+                <operation name="validatePartition"/>
+                <operation name="createApplicationClusters"/>
+                <operation name="removeKubernetesCluster"/>
+                <operation name="getServiceGroupCartridges"/>
+                <operation name="getCartridge"/>
+                <operation name="addKubernetesCluster"/>
+                <operation name="addServiceGroup"/>
+                <operation name="registerService"/>
+                <operation name="terminateInstance"/>
+                <operation name="getServiceGroupDependencies"/>
+                <operation name="getServiceGroupSubGroups"/>
+                <operation name="getServiceGroup"/>
+                <operation name="updateNetworkPartition"/>
+                <operation name="removeNetworkPartition"/>
+                <operation name="addKubernetesHost"/>
+                <operation name="createClusterInstance"/>
+                <operation name="unregisterService"/>
+                <operation name="getHostsForKubernetesCluster"/>
+                <operation name="updateKubernetesCluster"/>
+                <operation name="terminateInstanceForcefully"/>
+                <operation name="removeKubernetesHost"/>
+                <operation name="getKubernetesClusters"/>
+                <operation name="getMasterForKubernetesCluster"/>
+                <operation name="getIaasProviders"/>
+                <operation name="validateDeploymentPolicyNetworkPartition"/>
+                <operation name="updateCartridge"/>
+                <operation name="startInstances"/>
+                <operation name="startInstance"/>
+                <operation name="getNetworkPartition"/>
+                <operation name="terminateInstances"/>
+                <operation name="getClusterContext"/>
+                <operation name="updateClusterStatus"/>
+                <operation name="updateKubernetesHost"/>
+                <operation name="removeServiceGroup"/>
+                <operation name="addNetworkPartition"/>
+                <operation name="getKubernetesCluster"/>
+                <operation name="removeCartridge"/>
+                <operation name="addCartridge"/>
+                <operation name="getNetworkPartitions"/>
+            </binding>
+            <binding name="CloudControllerServiceSoap11Binding">
+                <operation name="getCartridges"/>
+                <operation name="updateKubernetesMaster"/>
+                <operation name="validatePartition"/>
+                <operation name="createApplicationClusters"/>
+                <operation name="removeKubernetesCluster"/>
+                <operation name="getServiceGroupCartridges"/>
+                <operation name="getCartridge"/>
+                <operation name="addKubernetesCluster"/>
+                <operation name="addServiceGroup"/>
+                <operation name="registerService"/>
+                <operation name="terminateInstance"/>
+                <operation name="getServiceGroupDependencies"/>
+                <operation name="getServiceGroupSubGroups"/>
+                <operation name="getServiceGroup"/>
+                <operation name="updateNetworkPartition"/>
+                <operation name="removeNetworkPartition"/>
+                <operation name="addKubernetesHost"/>
+                <operation name="createClusterInstance"/>
+                <operation name="unregisterService"/>
+                <operation name="getHostsForKubernetesCluster"/>
+                <operation name="updateKubernetesCluster"/>
+                <operation name="terminateInstanceForcefully"/>
+                <operation name="removeKubernetesHost"/>
+                <operation name="getKubernetesClusters"/>
+                <operation name="getMasterForKubernetesCluster"/>
+                <operation name="getIaasProviders"/>
+                <operation name="validateDeploymentPolicyNetworkPartition"/>
+                <operation name="updateCartridge"/>
+                <operation name="startInstances"/>
+                <operation name="startInstance"/>
+                <operation name="getNetworkPartition"/>
+                <operation name="terminateInstances"/>
+                <operation name="getClusterContext"/>
+                <operation name="updateClusterStatus"/>
+                <operation name="updateKubernetesHost"/>
+                <operation name="removeServiceGroup"/>
+                <operation name="addNetworkPartition"/>
+                <operation name="getKubernetesCluster"/>
+                <operation name="removeCartridge"/>
+                <operation name="addCartridge"/>
+                <operation name="getNetworkPartitions"/>
+            </binding>
+        </bindings>
+        <policies/>
+        <module name="addressing" version="4.2.0" type="engagedModules"/>
+        <parameter name="ServiceClass">org.apache.stratos.cloud.controller.services.impl.CloudControllerServiceImpl
+        </parameter>
+    </service>
+</serviceGroup>

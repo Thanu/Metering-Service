@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><serviceGroup name="org.apache.stratos.manager-4.1.4.SNAPSHOT" successfullyAdded="true">
+    <service name="StratosManagerService" serviceDocumentation="StratosManagerService" exposedAllTransports="true" serviceDeployedTime="1443610728493" successfullyAdded="true">
+        <operation name="addUsedCartridgeGroupsInApplications">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="canCartridgeBeRemoved">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="applicationSignUpExist">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getApplicationSignUps">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getDomainMappings">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="notifyArtifactUpdatedEventForSignUp">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="removeUsedCartridgesInApplications">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="removeUsedCartridgeGroupsInCartridgeSubGroups">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="addUsedCartridgesInCartridgeGroups">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="removeUsedCartridgeGroupsInApplications">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="addUsedCartridgeGroupsInCartridgeSubGroups">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="removeUsedCartridgesInCartridgeGroups">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="addDomainMapping">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="addUsedCartridgesInApplications">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="removeApplicationSignUp">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="removeDomainMapping">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="notifyArtifactUpdatedEventForRepository">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="canCartirdgeGroupBeRemoved">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="applicationSignUpsExist">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getApplicationSignUp">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="addApplicationSignUp">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <bindings>
+            <binding name="StratosManagerServiceSoap12Binding">
+                <operation name="applicationSignUpExist"/>
+                <operation name="canCartridgeBeRemoved"/>
+                <operation name="addUsedCartridgeGroupsInApplications"/>
+                <operation name="getApplicationSignUps"/>
+                <operation name="getDomainMappings"/>
+                <operation name="notifyArtifactUpdatedEventForSignUp"/>
+                <operation name="removeUsedCartridgesInApplications"/>
+                <operation name="addUsedCartridgesInCartridgeGroups"/>
+                <operation name="removeUsedCartridgeGroupsInCartridgeSubGroups"/>
+                <operation name="addUsedCartridgeGroupsInCartridgeSubGroups"/>
+                <operation name="removeUsedCartridgeGroupsInApplications"/>
+                <operation name="removeUsedCartridgesInCartridgeGroups"/>
+                <operation name="addDomainMapping"/>
+                <operation name="addUsedCartridgesInApplications"/>
+                <operation name="removeApplicationSignUp"/>
+                <operation name="removeDomainMapping"/>
+                <operation name="notifyArtifactUpdatedEventForRepository"/>
+                <operation name="canCartirdgeGroupBeRemoved"/>
+                <operation name="applicationSignUpsExist"/>
+                <operation name="getApplicationSignUp"/>
+                <operation name="addApplicationSignUp"/>
+            </binding>
+            <binding name="StratosManagerServiceSoap11Binding">
+                <operation name="applicationSignUpExist"/>
+                <operation name="canCartridgeBeRemoved"/>
+                <operation name="addUsedCartridgeGroupsInApplications"/>
+                <operation name="getApplicationSignUps"/>
+                <operation name="getDomainMappings"/>
+                <operation name="notifyArtifactUpdatedEventForSignUp"/>
+                <operation name="removeUsedCartridgesInApplications"/>
+                <operation name="addUsedCartridgesInCartridgeGroups"/>
+                <operation name="removeUsedCartridgeGroupsInCartridgeSubGroups"/>
+                <operation name="addUsedCartridgeGroupsInCartridgeSubGroups"/>
+                <operation name="removeUsedCartridgeGroupsInApplications"/>
+                <operation name="removeUsedCartridgesInCartridgeGroups"/>
+                <operation name="addDomainMapping"/>
+                <operation name="addUsedCartridgesInApplications"/>
+                <operation name="removeApplicationSignUp"/>
+                <operation name="removeDomainMapping"/>
+                <operation name="notifyArtifactUpdatedEventForRepository"/>
+                <operation name="canCartirdgeGroupBeRemoved"/>
+                <operation name="applicationSignUpsExist"/>
+                <operation name="getApplicationSignUp"/>
+                <operation name="addApplicationSignUp"/>
+            </binding>
+            <binding name="StratosManagerServiceHttpBinding">
+                <operation name="applicationSignUpExist"/>
+                <operation name="canCartridgeBeRemoved"/>
+                <operation name="addUsedCartridgeGroupsInApplications"/>
+                <operation name="getApplicationSignUps"/>
+                <operation name="getDomainMappings"/>
+                <operation name="notifyArtifactUpdatedEventForSignUp"/>
+                <operation name="removeUsedCartridgesInApplications"/>
+                <operation name="addUsedCartridgesInCartridgeGroups"/>
+                <operation name="removeUsedCartridgeGroupsInCartridgeSubGroups"/>
+                <operation name="addUsedCartridgeGroupsInCartridgeSubGroups"/>
+                <operation name="removeUsedCartridgeGroupsInApplications"/>
+                <operation name="removeUsedCartridgesInCartridgeGroups"/>
+                <operation name="addDomainMapping"/>
+                <operation name="addUsedCartridgesInApplications"/>
+                <operation name="removeApplicationSignUp"/>
+                <operation name="removeDomainMapping"/>
+                <operation name="notifyArtifactUpdatedEventForRepository"/>
+                <operation name="canCartirdgeGroupBeRemoved"/>
+                <operation name="applicationSignUpsExist"/>
+                <operation name="getApplicationSignUp"/>
+                <operation name="addApplicationSignUp"/>
+            </binding>
+        </bindings>
+        <policies/>
+        <module name="addressing" version="4.2.0" type="engagedModules"/>
+        <parameter name="ServiceClass">org.apache.stratos.manager.services.impl.StratosManagerServiceImpl</parameter>
+    </service>
+</serviceGroup>
